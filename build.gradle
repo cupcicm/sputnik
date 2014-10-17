@@ -3,6 +3,7 @@ apply plugin: 'application'
 apply plugin: 'idea'
 apply plugin: 'jacoco'
 apply plugin: 'coveralls'
+apply plugin: 'eclipse'
 
 apply plugin: 'maven'
 apply plugin: 'signing'
