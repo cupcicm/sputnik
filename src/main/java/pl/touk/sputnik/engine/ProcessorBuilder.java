@@ -35,7 +35,7 @@ public class ProcessorBuilder {
         if (Boolean.valueOf(ConfigurationHolder.instance().getProperty(GeneralOption.CODE_NARC_ENABLED))) {
             processors.add(new CodeNarcProcessor());
         }
-        if (Boolean.valueOf(ConfigurationHolder.instance().getProperty(GeneralOption.CODE_NARC_ENABLED))) {
+        if (Boolean.valueOf(ConfigurationHolder.instance().getProperty(GeneralOption.SONAR_ENABLED))) {
             processors.add(new SonarProcessor());
         }
         return processors;
